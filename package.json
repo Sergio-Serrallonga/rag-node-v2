@@ -1,0 +1,21 @@
+{
+  "name": "rag-node-v2",
+  "version": "1.0.0",
+  "main": "populate_database.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@huggingface/transformers": "^3.3.3",
+    "@xenova/transformers": "^2.14.0",
+    "@langchain/community": "^0.3.33",
+    "@langchain/core": "^0.3.42",
+    "chromadb": "^1.10.4",
+    "chromadb-default-embed": "^2.13.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
